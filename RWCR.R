@@ -4,7 +4,7 @@ library(ncvreg); library(mvtnorm); library(splitstackshape)
 library(caret); library(lme4)
 #size: number of WCR data sets
 #y: response variable, can be continuous or binary.
-#X: covairate matrix
+#X: covariate matrix
 #id: cluster id
 #type: type of penalty function, either "lasso", "SCAD, or "MCP"
 #fm: error distribution, either "binomial" or "gaussian"
